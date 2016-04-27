@@ -3,7 +3,7 @@ import os
 from setuptools import setup, find_packages
 from pip.req import parse_requirements
 
-VERSION = '{{version}}'
+VERSION = ''
 
 REQUIREMENTS = parse_requirements('requirements.txt')
 with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
@@ -13,7 +13,7 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 setup(
     name='{{project_name}}',
     version=VERSION,
-    description='{{description}}',
+    description='',
     long_description=README,
     include_package_data=True,
     packages=find_packages('{{project_name}}'),

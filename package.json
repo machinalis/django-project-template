@@ -1,17 +1,17 @@
 {
   "name": "{{project_name}}",
-  "version": "{{version}}",
-  "description": "{{description}}",
-  "homepage": "https://github.com/{{author}}/{{project_name}}",
-  "author": "{{author}}",
-  "license": "{{license}}",
+  "version": "",
+  "description": "",
+  "homepage": "https://github.com//{{project_name}}",
+  "author": "",
+  "license": "",
   "main": "static/main.js",
   "bugs": {
-    "url": "https://github.com/{{author}}/{{project_name}}/issues"
+    "url": "https://github.com//{{project_name}}/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/{{author}}/{{project_name}}.git"
+    "url": "https://github.com//{{project_name}}.git"
   },
   "scripts": {
     "start": "grunt",

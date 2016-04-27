@@ -95,5 +95,5 @@ Now you are ready to run the development server:
 
 Licence notice:
 ---------------
-© 2016 {{project_name}} - {{author}},
+© 2016 {{project_name}} - ,
 A copy of the project licence is available at COPYING.
