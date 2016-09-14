@@ -2,10 +2,11 @@
 import os
 from setuptools import setup, find_packages
 from pip.req import parse_requirements
+from pip.download import PipSession
 
 VERSION = '{{version}}'
 
-REQUIREMENTS = parse_requirements('requirements.txt')
+REQUIREMENTS = parse_requirements('requirements.txt', session=PipSession())
 with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
     README = readme.read()
 
